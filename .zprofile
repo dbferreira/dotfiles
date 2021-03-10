@@ -5,7 +5,7 @@ alias ls='ls -F'
 
 # Shopify
 alias new-shop='bin/rails dev:shop:create'
-alias create-shop='bin/rails dev:shop:create'
+alias create-shop='bin/rails dev:shop:create PLAN=basic GATEWAY=bogus API_CLIENT_HANDLES=facebook,online_store'
 function enable-beta() { bin/rails dev:betas:enable BETA="$1" SHOP_ID="$2"; }
 function disable-beta() { bin/rails dev:betas:disable BETA="$1" SHOP_ID="$2"; }
 function freeze() { bin/rails dev:shop:change_plan SHOP_ID="$1" PLAN=frozen; }
