@@ -3,4 +3,4 @@
 cp ~/dotfiles/.gitconfig ~/.gitconfig
 cp ~/dotfiles/.zprofile ~/.zprofile
 
-sudo apt-get install -y htop
+sudo apt-get install -y htop nano lsof

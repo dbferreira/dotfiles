@@ -3,7 +3,7 @@
 	email = daniel.ferreira@shopify.com
 
 [core]
-	editor = code --wait
+	editor = nano
 	commitGraph = true
 
 [alias]
